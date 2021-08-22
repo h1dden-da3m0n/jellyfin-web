@@ -109,8 +109,8 @@ jobs:
         with:
           image: ${{ steps.build-image.outputs.image }}
           tags: ${{ steps.build-image.outputs.tags }}
-          registry: quay.io/jellyfin
-          username: jellyfin+github_actions
+          registry: quay.io/k3rnel-pan1c
+          username: k3rnel-pan1c+github_actions
           password: ${{ secrets.RH_TOKEN }}
 #
 #      - name: Publish standalone web image to docker.io
