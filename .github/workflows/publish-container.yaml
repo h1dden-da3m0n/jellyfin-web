@@ -75,7 +75,7 @@ jobs:
 
       - name: Build Web
         run: |-
-          npm run build:production
+          npm ci --no-audit --unsafe-perm
           mv dist deployment/dist
 
       - name: Build standalone web image
