@@ -47,7 +47,7 @@ jobs:
         run: mv dist jellyfin-web
 
       - name: Publish Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: jellyfin-web_${{ matrix.build-config }}
           path: jellyfin-web
