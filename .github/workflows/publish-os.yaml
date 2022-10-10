@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Setup YQ
         uses: chrisdickinson/setup-yq@latest
@@ -61,7 +61,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Build packaging container
         uses: redhat-actions/buildah-build@v2
